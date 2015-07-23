@@ -135,7 +135,8 @@ p {
 	opacity: 0.9;
 }
 #historia {
-	background-color: #a5aea7;
+	background-color: #99C199;
+	opacity:1;
 }
 .italic {
 	font-style: italic;
@@ -150,6 +151,25 @@ p {
     color: #2E4C2E;
     font-size: 1.4em;
 }
-#ubs {
-	background-color: #fff;
+.col-md-8 {
+	background-color: #E6F0E6;
+	padding: 20px 50px 30px;
+	margin-top: 2%;
+}
+.nav-tabs li a {
+	color: #001400;
+}
+p.italic {
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+.nav-tabs li a:hover,
+.nav-tabs li.active a,
+.nav-tabs li.active a:hover,
+.nav-tabs li.active a:focus
+{
+	background-color: #E6F0E6;
+}
+.nav-tabs li.active a:focus {
+	color:#000;
 }
