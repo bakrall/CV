@@ -52,34 +52,48 @@ body {
 	background-image: url(../img/drzewo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 100px;
+	padding-top:120px;
 	font-size: 16px;
-
 }
-p, h3, ul#kwal li {
+p, h3, ul#kwal li, h2 {
 	font-family: Garamond, Georgia, serif;
-	font-size: 1.1em;
 	/*wersja gradient
 	color: #535353;
 	*/
-	padding: 15px 15px 5px;
-	color:white;
 }
 h3, h2 {
-	font-size: 1.2em;
 	font-weight: bold;
-	color:#4c804c;
 	}
 h3 {	
+	font-size: 1.9em;
 	color: white;
 	display: inline-block;
-	text-align: :center;
-	line-height: 70%;
+}
+h2 {
+	color:#000;
+	font-size: 1.3em;
+	padding-bottom: 5px;
+}
+.navbar {
+	background-color: #2E4C2E;
+	border-color: #2E4C2E;
+	opacity: 0.9;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+.dropdown-menu {
+	background-color: #2E4C2E;
+	opacity: 0.9;
+}
+.dropdown-menu > li > a {
+	color:white;
 }
 .col-md-3 {
 	width: 23%;
-	margin: 0 1% 2%;
-    height: 40%;
+	margin: 1% 1% 2%;
+    height: 35%;
     /*
 	background: -moz-linear-gradient(left top, #1f331f, #fff);
 	background: -webkit-linear-gradient(#adffad, #fff);
@@ -87,19 +101,49 @@ h3 {
 	background: -o-linear-gradient(#adffad, #fff);
 	background: -linear-gradient(#adffad, #fff);
  */
-    background: -moz-radial-gradient(left top, #1f331f,#fff);
-    border-radius: 50%;
+    background: -moz-radial-gradient(left top, #1f331f,#5C995C);
+    background: -webkit-radial-gradient(left top, #1f331f,#fff);
+    background: radial-gradient(left top, #1f331f,#fff);
+    border-radius: 5% 20%;
     opacity: 0.8;
     /*
-	outline: 5px solid #4c804c;*/
-	
-   
+	outline: 5px solid #4c804c;*/  
+	padding: 3%;
 }
+
 .col-md-12 {
 	background-color: #F8F8F8;
-	outline: 1px solid #bbb;
-	margin-bottom: 1%;
+	padding: 80px 130px;
+}
+.col-md-12#aspiracje, .col-md-12#kwalifikacje {
+	padding-bottom: 0px;
+}
+p {
+	font-size: 1.2em;
+	padding: 5px 0 2px;
+}
+#dane {
+	background-color: #275866;
+	color:lightBlue;
+}
+#aspiracje, #kwalifikacje, #portfolio {
+	background-color: #000;
+	color: #FFF5EE;
+	opacity: 0.9;
+}
+#historia {
+	background-color: #c7c7c8;
 }
 .italic {
 	font-style: italic;
+}
+.container {
+	margin-bottom: 6%;
+}
+.container#dwa {
+	margin-top: 6%;
+}
+.container#dwa h2 {
+    color: #2E4C2E;
+    font-size: 1.4em;
 }
