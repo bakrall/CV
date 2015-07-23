@@ -118,6 +118,9 @@ h2 {
 .col-md-12#aspiracje, .col-md-12#kwalifikacje {
 	padding-bottom: 0px;
 }
+.col-md-12#portfolio, .col-md-12#kwalifikacje {
+	padding-top: 40px;
+}
 p {
 	font-size: 1.2em;
 	padding: 5px 0 2px;
@@ -132,7 +135,7 @@ p {
 	opacity: 0.9;
 }
 #historia {
-	background-color: #c7c7c8;
+	background-color: #a5aea7;
 }
 .italic {
 	font-style: italic;
@@ -146,4 +149,7 @@ p {
 .container#dwa h2 {
     color: #2E4C2E;
     font-size: 1.4em;
+}
+#ubs {
+	background-color: #fff;
 }
