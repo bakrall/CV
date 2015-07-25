@@ -115,19 +115,21 @@ h2 {
 	background-color: #F8F8F8;
 	padding: 80px 130px;
 }
-.col-md-12#aspiracje, .col-md-12#kwalifikacje {
+.col-md-12#aspiracje, .col-md-12#kwalifikacje, 
+.col-md-12#edukacja {
 	padding-bottom: 0px;
 }
-.col-md-12#portfolio, .col-md-12#kwalifikacje {
+.col-md-12#portfolio, .col-md-12#kwalifikacje, 
+.col-md-12#skills {
 	padding-top: 40px;
 }
 p {
 	font-size: 1.2em;
 	padding: 5px 0 2px;
 }
-#dane {
-	background-color: #275866;
-	color:lightBlue;
+#dane, .footer {
+	background-color: #2E4C2E;
+	color:#F8F8F8;
 }
 #aspiracje, #kwalifikacje, #portfolio {
 	background-color: #000;
@@ -172,4 +174,11 @@ p.italic {
 }
 .nav-tabs li.active a:focus {
 	color:#000;
+}
+.footer .container {
+	margin-bottom: 0%;
+}
+.footer .container p {
+	font-size: 1em;
+	line-height: 200%;
 }
