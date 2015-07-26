@@ -52,29 +52,19 @@ body {
 	background-image: url(../img/drzewo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-color: #dcdcdc;
 	padding-top: 95px;
 	font-size: 16px;
 }
-p, h3, ul#kwal li, h2 {
+p, h2 {
 	font-family: Garamond, Georgia, serif;
-	/*wersja gradient
-	color: #535353;
-	*/
-}
-h3, h2 {
-	font-weight: bold;
-	}
-h3 {	
-	font-size: 1.5em;
-	color: #fff;
-	display: inline-block;
 }
 h2 {
+	font-weight: bold;
 	color:#000;
 	font-size: 1.3em;
 	padding-bottom: 5px;
 }
-
 .navbar {
 	background-color: #191919;
 	border-color: #191919;
@@ -89,16 +79,9 @@ h2 {
 .navbar-default .navbar-nav > li > a:hover {
 	color: #000;
 }
-.dropdown-menu {
-	background-color: #2E4C2E;
-	opacity: 0.9;
-}
-
-
 .navbar-nav li {
 	width: 140px;
     height: 55px;
-
     background: -moz-radial-gradient(left top, #1f331f,#5C995C);
     background: -webkit-radial-gradient(left top, #1f331f,#5C995C);
     background: -ms-radial-gradient(left top, #1f331f,#5C995C);
@@ -114,12 +97,10 @@ h2 {
 .navbar-nav li a {
 	padding: 5px 0 0 13px;
 }
-
 .container#jeden {
 	padding: 0px;
 	margin-bottom: 50px;
 }
-	
 #dane, #aspiracje, 
 #kwalifikacje, #portfolio, 
 #historia, #edukacja,
