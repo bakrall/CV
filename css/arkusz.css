@@ -52,7 +52,7 @@ body {
 	background-image: url(../img/drzewo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top:120px;
+	padding-top: 95px;
 	font-size: 16px;
 }
 p, h3, ul#kwal li, h2 {
@@ -65,8 +65,8 @@ h3, h2 {
 	font-weight: bold;
 	}
 h3 {	
-	font-size: 1.9em;
-	color: white;
+	font-size: 1.5em;
+	color: #fff;
 	display: inline-block;
 }
 h2 {
@@ -74,55 +74,75 @@ h2 {
 	font-size: 1.3em;
 	padding-bottom: 5px;
 }
+
 .navbar {
-	background-color: #2E4C2E;
-	border-color: #2E4C2E;
+	background-color: #191919;
+	border-color: #191919;
 	opacity: 0.9;
+	height: 50px;
 }
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
-	color: white;
+	color: #fff;
+}
+.navbar-default .navbar-brand li a:hover,
+.navbar-default .navbar-nav > li > a:hover {
+	color: #000;
 }
 .dropdown-menu {
 	background-color: #2E4C2E;
 	opacity: 0.9;
 }
-.dropdown-menu > li > a {
-	color:white;
-	font-size: 1.3em;
-}
-.col-md-3 {
-	width: 23%;
-	margin: 1% 1% 2%;
-    height: 35%;
-    /*
-	background: -moz-linear-gradient(left top, #1f331f, #fff);
-	background: -webkit-linear-gradient(#adffad, #fff);
-	background: -ms-linear-gradient(#adffad, #fff);
-	background: -o-linear-gradient(#adffad, #fff);
-	background: -linear-gradient(#adffad, #fff);
- */
+
+
+.navbar-nav li {
+	width: 140px;
+    height: 55px;
+
     background: -moz-radial-gradient(left top, #1f331f,#5C995C);
-    background: -webkit-radial-gradient(left top, #1f331f,#fff);
-    background: radial-gradient(left top, #1f331f,#fff);
-    border-radius: 5% 20%;
-    opacity: 0.8;
-    /*
-	outline: 5px solid #4c804c;*/  
-	padding: 3%;
+    background: -webkit-radial-gradient(left top, #1f331f,#5C995C);
+    background: -ms-radial-gradient(left top, #1f331f,#5C995C);
+    background: radial-gradient(left top, #1f331f,#5C995C);
+    border-radius: 5% 20%; 
+}
+@media (max-width: 1200px) {
+	.navbar-nav li {
+	width: 107px;
+    height: 55px;
+}
+}
+.navbar-nav li a {
+	padding: 5px 0 0 13px;
 }
 
-.col-md-12 {
-	background-color: #F8F8F8;
-	padding: 80px 130px;
+.container#jeden {
+	padding: 0px;
+	margin-bottom: 50px;
 }
-.col-md-12#aspiracje, .col-md-12#kwalifikacje, 
-.col-md-12#edukacja {
+	
+#dane, #aspiracje, 
+#kwalifikacje, #portfolio, 
+#historia, #edukacja,
+#skills {
+	padding: 60px 130px;
+}
+@media (max-width: 700px) {
+   #dane, #aspiracje, 
+   #kwalifikacje, #portfolio, 
+   #historia, #edukacja,
+   #skills {
+  	padding: 60px 70px;
+  }
+}
+#aspiracje, #kwalifikacje, 
+ {
 	padding-bottom: 0px;
 }
-.col-md-12#portfolio, .col-md-12#kwalifikacje, 
-.col-md-12#skills {
-	padding-top: 40px;
+@media (max-width: 700px) {
+  #aspiracje, #kwalifikacje,
+    {
+  	padding-bottom: 0px;
+  }
 }
 p {
 	font-size: 1.2em;
@@ -132,29 +152,28 @@ p {
 	background-color: #2E4C2E;
 	color:#F8F8F8;
 }
-#aspiracje, #kwalifikacje, #portfolio {
+#aspiracje, #kwalifikacje, #portfolio,
+#edukacja, #skills {
 	background-color: #000;
 	color: #FFF5EE;
 	opacity: 0.9;
 }
 #historia {
 	background-color: #99C199;
-	opacity:1;
 }
 .italic {
 	font-style: italic;
 }
-.container {
-	margin-bottom: 6%;
-}
 .container#dwa {
-	margin-top: 6%;
+	margin: 50px auto;
 }
-.container#dwa h2 {
+.container#dwa h2, #edukacja h2,
+#skills h2
+ {
     color: #2E4C2E;
     font-size: 1.4em;
 }
-.col-md-8 {
+.job {
 	background-color: #E6F0E6;
 	padding: 20px 50px 30px;
 	margin-top: 2%;
@@ -182,4 +201,10 @@ p.italic {
 .footer .container p {
 	font-size: 1em;
 	line-height: 200%;
+}
+#least {
+	padding: 80px 80px 40px;
+}
+#last {
+	padding: 40px 80px 80px;
 }
