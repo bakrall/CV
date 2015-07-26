@@ -69,7 +69,11 @@ h2 {
 	background-color: #191919;
 	border-color: #191919;
 	opacity: 0.9;
-	height: 50px;
+}
+@media (min-width: 1200px) {
+	.navbar {
+		height:50px;
+	}
 }
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
@@ -188,4 +192,8 @@ p.italic {
 }
 #last {
 	padding: 40px 80px 80px;
+}
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse {
+	max-height: 390px;
 }
