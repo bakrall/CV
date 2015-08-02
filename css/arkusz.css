@@ -78,6 +78,26 @@ h2 {
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
 	color: #fff;
+	padding: 5px 20px 0px 30px;
+}
+.navbar-default .navbar-brand {
+	padding-top: 13px;
+}
+.navbar-default .navbar-nav li a {
+	line-height: 40px;
+	padding-left: 20px;
+	text-align: center;
+}
+@media (min-width: 740px) and (max-width: 1200px) {
+	.navbar-default .navbar-nav li a {
+	padding-left: 10px;
+}
+}
+.navbar-default .navbar-nav li:nth-child(1) a,
+.navbar-default .navbar-nav li:nth-child(2) a,
+.navbar-default .navbar-nav li:nth-child(5) a
+ {
+	line-height: 20px;
 }
 .navbar-default .navbar-brand li a:hover,
 .navbar-default .navbar-nav > li > a:hover {
@@ -98,9 +118,7 @@ h2 {
     height: 55px;
 }
 }
-.navbar-nav li a {
-	padding: 5px 0 0 13px;
-}
+
 .container#jeden {
 	padding: 0px;
 	margin-bottom: 50px;
