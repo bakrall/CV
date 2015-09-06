@@ -75,6 +75,10 @@ h2 {
 		height:50px;
 	}
 }
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse {
+	max-height: 390px; }
+	
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
 	color: #fff;
@@ -215,12 +219,8 @@ x#least {
 x#last {
 	padding: 40px 80px 80px;
 }
-<<<<<<< HEAD
-.navbar-fixed-bottom .navbar-collapse,
-.navbar-fixed-top .navbar-collapse {
-	max-height: 390px;
-=======
+
 #historia {
 	margin-bottom: 50px;
->>>>>>> master
+
 }
