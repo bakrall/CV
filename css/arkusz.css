@@ -148,7 +148,7 @@ p {
 	font-size: 1.2em;
 	padding: 5px 0 2px;
 }
-#dane, .footer {
+#dane {
 	background-color: #2E4C2E;
 	color:#F8F8F8;
 }
@@ -199,12 +199,16 @@ p.italic {
 	margin-bottom: 0%;
 }
 .footer .container p {
+	color: #ffffff;
 	font-size: 1em;
 	line-height: 200%;
 }
-#least {
+x#least {
 	padding: 80px 80px 40px;
 }
-#last {
+x#last {
 	padding: 40px 80px 80px;
+}
+#historia {
+	margin-bottom: 50px;
 }
