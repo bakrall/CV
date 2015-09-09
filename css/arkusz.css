@@ -130,29 +130,24 @@ a#brand:hover {
 	padding: 0px;
 	margin-bottom: 50px;
 }
+
 #dane, #aspiracje, 
 #kwalifikacje, #portfolio, 
 #historia, #edukacja,
 #skills {
-	padding: 60px 130px;
+	padding: 40px 130px;
 }
 @media (max-width: 700px) {
    #dane, #aspiracje, 
    #kwalifikacje, #portfolio, 
    #historia, #edukacja,
    #skills {
-  	padding: 60px 20px;
+  	padding: 40px 20px;
   }
 }
-#aspiracje, #kwalifikacje, 
+#aspiracje, #kwalifikacje, #edukacja
  {
-	padding-bottom: 0px;
-}
-@media (max-width: 700px) {
-  #aspiracje, #kwalifikacje,
-    {
-  	padding-bottom: 0px;
-  }
+	padding: 40px 130px 0px;
 }
 p {
 	font-size: 1.2em;
