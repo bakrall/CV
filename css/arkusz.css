@@ -209,8 +209,11 @@ p {
 	padding: 20px 50px 30px;
 	margin-top: 2%;
 }
+
+
 .nav-tabs li a {
 	color: #001400;
+	font-size: 1.1em;
 }
 p.italic {
 	padding-bottom: 15px;
