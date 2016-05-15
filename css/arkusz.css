@@ -75,6 +75,11 @@ h2 {
 		height:50px;
 	}
 }
+@media (max-width: 767px) {
+	.navbar {
+		opacity: 1;
+	}
+}
 .navbar-fixed-bottom .navbar-collapse,
 .navbar-fixed-top .navbar-collapse {
 	max-height: 390px; }
@@ -97,11 +102,23 @@ h2 {
 	padding-left: 10px;
 }
 }
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav li a {
+	line-height: 50px;
+}
+}
 .navbar-default .navbar-nav li:nth-child(1) a,
 .navbar-default .navbar-nav li:nth-child(2) a,
 .navbar-default .navbar-nav li:nth-child(5) a
  {
 	line-height: 20px;
+}
+@media(max-width: 767px) {
+	.navbar-default .navbar-nav li:nth-child(1) a,
+	.navbar-default .navbar-nav li:nth-child(2) a,
+	.navbar-default .navbar-nav li:nth-child(5) a {
+		line-height: 50px;
+	}
 }
 a#brand:hover {
 	color: #fff;
@@ -121,9 +138,16 @@ a#brand:hover {
 }
 @media (max-width: 1200px) {
 	.navbar-nav li {
-	width: 107px;
-    height: 55px;
+		max-width: 107px;
+    	height: 55px;
+	}
 }
+
+@media (max-width: 767px) {
+	.navbar-nav li {
+		max-width: 100%;
+		width: 100%;
+	}
 }
 
 .container#jeden {
@@ -137,6 +161,12 @@ a#brand:hover {
 #skills {
 	padding: 40px 130px;
 }
+
+#aspiracje, #kwalifikacje, #edukacja
+ {
+	padding: 40px 130px 0px;
+}
+
 @media (max-width: 700px) {
    #dane, #aspiracje, 
    #kwalifikacje, #portfolio, 
@@ -144,10 +174,6 @@ a#brand:hover {
    #skills {
   	padding: 40px 20px;
   }
-}
-#aspiracje, #kwalifikacje, #edukacja
- {
-	padding: 40px 130px 0px;
 }
 p {
 	font-size: 1.2em;
