@@ -57,6 +57,7 @@ body {
 	font-size: 16px;
 }
 
+
 #content {
 	max-width: 1170px;
 	margin-left: auto;
@@ -147,10 +148,19 @@ a#brand:hover {
     background: radial-gradient(left top, #1f331f,#5C995C);
     border-radius: 5% 20%; 
 }
-@media (max-width: 1200px) {
+@media (max-width: 1050px) {
 	.navbar-nav li {
-		max-width: 107px;
+		max-width: 115px;
+	}
+}
+@media(min-width: 768px) and (max-width: 845px) {
+	.navbar-nav li {
+		max-width: 105px;
     	height: 55px;
+	}
+	.navbar-default .navbar-nav li a {
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 
@@ -166,9 +176,26 @@ a#brand:hover {
 	padding: 0px;
 	margin: 0 auto 50px;
 }
-@media(min-width: 768px) {
+@media(min-width: 1200px) {
 	#jeden {
 		width: 100%;
+	}
+}
+@media(min-width: 768px) and (max-width: 1199px) {
+	#jeden {
+		text-align:center;
+	}
+	.navbar-header {
+		float: none;
+	}
+	.navbar-brand {
+		float: none;
+		padding-left: 0;
+		display: inline-block;
+	}
+	ul.navbar-collapse.collapse {
+		display: inline-block !important;
+		float: none !important;
 	}
 }
 @media(max-width: 1199px) {
@@ -176,6 +203,8 @@ a#brand:hover {
 		margin: 0 15px 50px;
 	}
 }
+
+
 
 #dane, #aspiracje, 
 #kwalifikacje, #portfolio, 
