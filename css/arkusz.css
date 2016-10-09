@@ -166,6 +166,11 @@ a#brand:hover {
 	padding: 0px;
 	margin: 0 auto 50px;
 }
+@media(min-width: 1201px) {
+	#jeden {
+		width: 100%;
+	}
+}
 @media(max-width: 1199px) {
 	#jeden {
 		margin: 0 15px 50px;
