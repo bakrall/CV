@@ -213,11 +213,8 @@ p {
 .italic {
 	font-style: italic;
 }
-.container#dwa {
-	margin: 50px auto;
-}
-.container#dwa h2, #edukacja h2,
-#skills h2
+#aspiracje h2, #kwalifikacje h2, #portfolio h2,
+#edukacja h2, #skills h2
  {
     color: #2E4C2E;
     font-size: 1.4em;
