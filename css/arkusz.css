@@ -125,6 +125,7 @@ h2 {
 			line-height: 20px;
 	}
 }
+@media(min-width: 768px) and (max-width: 1198px) {
 	.headerAnchor span {
 		display: block;
 	}
@@ -215,7 +216,8 @@ a#brand:hover {
   	padding: 40px 20px;
   }
 }
-p {
+p,
+#skills li {
 	font-size: 1.2em;
 	padding: 5px 0 2px;
 }
@@ -240,6 +242,10 @@ p {
  {
     color: #2E4C2E;
     font-size: 1.4em;
+}
+
+#skills ul:first-of-type {
+	margin-bottom: 20px;
 }
 .job {
 	background-color: #E6F0E6;
@@ -267,7 +273,7 @@ p.italic {
 	color:#000;
 }
 .footer .container {
-	margin-bottom: 0%;
+	margin-top: 80px;
 }
 .footer .container p {
 	color: #ffffff;
