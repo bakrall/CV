@@ -1,10 +1,24 @@
 $(document).ready(function() {
-            $('a').click(function(e) {
-                e.preventDefault();
-                var part = $(this).attr('href');
-                var place = ($(part).offset().top) - 50;
-                console.log(place);
-                $('body').animate({scrollTop:place}, '500', 'swing'); 
-            });
+
+    var headerHeight, part, place;
+
+    function getOffsets() {
+        headerHeight = $('#jeden').height(); 
+        
+    }
+
+    $(window).load(getOffsets).resize(getOffsets);
+
+    $(function () {
+        $('.headerAnchor').click(function () {
+            part = $(this).attr('href');
+            place = $(part).offset().top - headerHeight;
+
+            $('html, body').animate({
+                scrollTop: place
+            }, 'slow');
+
+            return false;
         });
- 
+    });
+ });
