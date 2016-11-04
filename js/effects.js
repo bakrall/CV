@@ -4,7 +4,6 @@ $(document).ready(function() {
 
     function getOffsets() {
         headerHeight = $('#jeden').height(); 
-        
     }
 
     $(window).load(getOffsets).resize(getOffsets);
