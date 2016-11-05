@@ -3,7 +3,7 @@ $(document).ready(function() {
     var headerHeight, part, place;
 
     function getOffsets() {
-        headerHeight = $('#jeden').height(); 
+        headerHeight = $('#navbarTop').height(); 
     }
 
     $(window).load(getOffsets).resize(getOffsets);

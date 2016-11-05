@@ -162,18 +162,18 @@ a#brand:hover {
 	}
 }
 
-#jeden {
+#navbarTop {
 	max-width: 1170px;
 	padding: 0px;
 	margin: 0 auto 50px;
 }
 @media(min-width: 1200px) {
-	#jeden {
+	#navbarTop {
 		width: 100%;
 	}
 }
 @media(min-width: 768px) and (max-width: 1199px) {
-	#jeden {
+	#navbarTop {
 		text-align:center;
 	}
 	.navbar-header {
@@ -189,56 +189,55 @@ a#brand:hover {
 	}
 }
 @media(max-width: 1199px) {
-	#jeden {
+	#navbarTop {
 		margin: 0 15px 50px;
 	}
 }
 
-
-
-#dane, #aspiracje, 
-#kwalifikacje, #portfolio, 
-#historia, #edukacja,
+#data, #aspirations, 
+#qualifications, #portfolio, 
+#experience, #education,
 #skills {
 	padding: 40px 130px;
 }
 
-#aspiracje, #kwalifikacje, #edukacja
+#aspirations, #qualifications, #education
  {
 	padding: 40px 130px 0px;
 }
 
 @media (max-width: 700px) {
-   #dane, #aspiracje, 
-   #kwalifikacje, #portfolio, 
-   #historia, #edukacja,
+   #data, #aspirations, 
+   #qualifications, #portfolio, 
+   #experience, #education,
    #skills {
   	padding: 40px 20px;
   }
 }
+
 p,
 #skills li {
 	font-size: 1.2em;
 	padding: 5px 0 2px;
 }
-#dane {
+#data {
 	background-color: #2E4C2E;
-	color:#F8F8F8;
+	color: #F8F8F8;
 }
-#aspiracje, #kwalifikacje, #portfolio,
-#edukacja, #skills {
+#aspirations, #qualifications, #portfolio,
+#education, #skills {
 	background-color: #000;
 	color: #FFF5EE;
 	opacity: 0.9;
 }
-#historia {
+#experience {
 	background-color: #99C199;
 }
 .italic {
 	font-style: italic;
 }
-#aspiracje h2, #kwalifikacje h2, #portfolio h2,
-#edukacja h2, #skills h2
+#aspirations h2, #qualifications h2, #portfolio h2,
+#education h2, #skills h2
  {
     color: #2E4C2E;
     font-size: 1.4em;
@@ -272,8 +271,9 @@ p.italic {
 .nav-tabs li.active a:focus {
 	color:#000;
 }
-.footer .container {
-	margin-top: 80px;
+.footer {
+	margin: 50px 0 80px;
+	text-align: right;
 }
 .footer .container p {
 	color: #ffffff;
@@ -281,7 +281,7 @@ p.italic {
 	line-height: 200%;
 }
 
-#historia {
+#experience, #data, #portfolio {
 	margin-bottom: 50px;
 
 }
