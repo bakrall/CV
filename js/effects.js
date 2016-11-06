@@ -31,17 +31,19 @@ $(document).ready(function() {
         });
     });
     
-    if ($(window).width() < 768) {
-        $('button').on('click', function(event) {
-            if($('#menuMobile').hasClass('in') == true) {
-                $('#data').animate({
-                    'margin-top': '0'
-                }, 300);
-            } else {
-                $('#data').animate({
-                    'margin-top': '400px'
-                }, 450);
-            }
-        });
-    }
+    $( window ).resize(function() {
+        if ($(window).width() < 768) {
+            $('button').on('click', function(event) {
+                if($('#menuMobile').hasClass('in') == true) {
+                    $('#data').animate({
+                        'margin-top': '0'
+                    }, 300);
+                } else {
+                    $('#data').animate({
+                        'margin-top': '400px'
+                    }, 450);
+                }
+            });
+        }
+    });
  });
