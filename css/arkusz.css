@@ -120,7 +120,6 @@ h2 {
 }
 @media(min-width: 768px) {
 	.navbar-default .navbar-nav li:nth-child(1) a,
-	.navbar-default .navbar-nav li:nth-child(2) a,
 	.navbar-default .navbar-nav li:nth-child(5) a {
 			line-height: 20px;
 	}
