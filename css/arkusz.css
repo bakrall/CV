@@ -210,20 +210,20 @@ a#brand:hover {
 	}
 }
 
-#data, #aspirations, 
+#data, #profile, 
 #qualifications, #portfolio, 
 #experience, #education,
 #skills {
 	padding: 40px 130px;
 }
 
-#aspirations, #qualifications, #education
+#profile, #qualifications, #education
  {
 	padding: 40px 130px 0px;
 }
 
 @media (max-width: 700px) {
-   #data, #aspirations, 
+   #data, #profile, 
    #qualifications, #portfolio, 
    #experience, #education,
    #skills {
@@ -246,7 +246,7 @@ p,
 	background-color: #2E4C2E;
 	color: #F8F8F8;
 }
-#aspirations, #qualifications, #portfolio,
+#profile, #qualifications, #portfolio,
 #education, #skills {
 	background-color: #000;
 	color: #FFF5EE;
@@ -258,7 +258,7 @@ p,
 .italic {
 	font-style: italic;
 }
-#aspirations h2, #qualifications h2, #portfolio h2,
+#profile h2, #qualifications h2, #portfolio h2,
 #education h2, #skills h2
  {
     color: #2E4C2E;
@@ -305,4 +305,24 @@ p.italic {
 
 #experience, #data, #portfolio {
 	margin-bottom: 50px;
+}
+
+.mobile {
+	display: none;
+}
+
+@media(max-width: 768px) {
+	.mobile {
+		display: block;
+	}
+}
+
+.desktop {
+	display: block;
+}
+
+@media(max-width: 768px) {
+	.desktop {
+		display: none;
+	}
 }
