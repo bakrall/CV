@@ -67,7 +67,7 @@ body {
 	margin-right: 0;
 }
 
-p, h2 {
+p, h2, li {
 	font-family: Garamond, Georgia, serif;
 }
 h2 {
@@ -232,11 +232,16 @@ a#brand:hover {
 }
 
 p,
-#skills li,
-#qualifications li {
+#skills li {
 	font-size: 1.2em;
 	padding: 5px 0 2px;
 }
+
+#qualifications li {
+	font-size: 1.2em;
+	padding: 1.5px 0;
+}
+
 #data {
 	background-color: #2E4C2E;
 	color: #F8F8F8;
