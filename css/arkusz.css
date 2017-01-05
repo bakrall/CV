@@ -232,7 +232,8 @@ a#brand:hover {
 }
 
 p,
-#skills li {
+#skills li,
+#qualifications li {
 	font-size: 1.2em;
 	padding: 5px 0 2px;
 }
