@@ -311,7 +311,7 @@ p.italic {
 	display: none;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 992px) {
 	.mobile {
 		display: block;
 	}
@@ -321,7 +321,7 @@ p.italic {
 	display: block;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 992px) {
 	.desktop {
 		display: none;
 	}
